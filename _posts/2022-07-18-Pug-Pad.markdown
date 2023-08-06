@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 2
+date: 2022-07-18
+img: pug_pad_banner.png
+alt: image-alt
+project-date: July 2022
+client:
+category: Cross Platform App
+description: Welcome to Pug Pad - the delightful drawing app designed for kids of all ages! <br><br> Let your imagination run wild with our simple and intuitive interface, perfect for budding artists. Developed by a parent, Pug Pad is a teacher-approved drawing app that offers a safe and fun environment for kids to explore their creativity.
+---
