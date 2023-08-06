@@ -82,7 +82,6 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
     background: #{{ site.color.primary }};
 }
 
@@ -119,7 +118,7 @@ header .intro-text .skills {
 
     header .intro-text .name {
         font-size: 4.75em;
-        color:
+        color: #{{ site.color.secondary }};
     }
 
     header .intro-text .skills {
@@ -172,6 +171,29 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: #{{ site.color.primary }};
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #{{ site.color.primary }};
+}
+
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
+    color: #{{ site.color.primary }};
+    background-color: #{{ site.color.secondary-dark }};
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #{{ site.color.primary }};
+    border-color: #{{ site.color.secondary-dark }};
+}
+
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
+    border-color: #{{ site.color.secondary-dark }};
+    background-color: #{{ site.color.secondary-dark }};
 }
 
 section {
@@ -358,7 +380,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-    color: #fff;
+    color: #{{ site.color.primary }};
 }
 
 footer h3 {
